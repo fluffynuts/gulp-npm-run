@@ -27,7 +27,7 @@ module.exports = function (gulp, opts) {
     logger.warn('Option withoutNpmRun is deprecated, use npmRun instead.')
   }
   var theScripts = require('be-goods').pkg.scripts
-  var includeHelp = R.mapObj(scriptHelp, theScripts)
+  var includeHelp = R.map(scriptHelp, theScripts)
   if (R.is(Object, o.include)) {
     includeHelp = R.merge(includeHelp, o.include)
     o.include = R.keys(o.include)
