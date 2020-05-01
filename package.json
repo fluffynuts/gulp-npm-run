@@ -16,29 +16,29 @@
   "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gulpsome/gulp-npm-run.git"
+    "url": "git@github.com:fluffynuts/gulp-npm-run.git"
   },
   "bugs": {
-    "mail": "om@soundsapiens.com",
-    "url": "https://github.com/gulpsome/gulp-npm-run/issues"
+    "url": "https://github.com/fluffynuts/gulp-npm-run/issues"
   },
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
   "main": "index.js",
   "dependencies": {
-    "be-goods": "0.0.4",
-    "childish-process": "0.0.4-1",
-    "ramda": "^0.18.0"
+    "be-goods": "0.0.9",
+    "childish-process": "0.0.5",
+    "ramda": "^0.27.0"
   },
   "devDependencies": {
-    "batshit": "0.1.0-1"
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4"
   },
   "jshintConfig": {
     "asi": true,
     "node": true
   },
   "scripts": {
-    "test": "batshit -t test"
+    "test": "echo 'please port tests from bats file'"
   },
   "engines": {
     "node": ">= 0.10.0"
