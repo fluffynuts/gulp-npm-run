@@ -26,7 +26,7 @@
   "main": "index.js",
   "dependencies": {
     "be-goods": "0.0.9",
-    "childish-process": "https://github.com/fluffynuts/childish-process#v1.0.0",
+    "childish-process": "https://github.com/fluffynuts/childish-process#v1.0.1",
     "ramda": "^0.27.0"
   },
   "devDependencies": {
